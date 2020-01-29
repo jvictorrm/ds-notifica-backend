@@ -7,7 +7,7 @@
   "license": "GNU",
   "scripts": {
     "dev": "nodemon src/server.js",
-    "build" : "yarn sucrase ./src -d ./dist --transforms imports",
+    "build" : "sucrase ./src -d ./dist --transforms imports",
     "start": "node dist/server.js",
     "dev:debug": "nodemon --inspect src/server.js"
   },
